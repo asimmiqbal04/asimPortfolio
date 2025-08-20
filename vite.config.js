@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: "/Ayesha-Portfolioi/",
+  base: "/asimPortfolio/",
   server: {
     proxy: {
       '/api': {
