@@ -3,11 +3,11 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: "/Ayesha-Portfolioi/",
+  base: "/", // or just remove this line
   server: {
     proxy: {
       '/api': {
-        target: 'https://www.zolixi.com', // Zolixi Next.js server
+        target: 'https://www.zolixi.com',
         changeOrigin: true,
         secure: false,
       },
