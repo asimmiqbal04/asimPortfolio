@@ -72,9 +72,11 @@ const About = () => {
       </div>
 
       <p ref={paragraphRef} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm a full-stack developer with a strong foundation in JavaScript and hands-on experience in modern frameworks like React, Next.js, and Three.js. I build dynamic, responsive UIs using TypeScript, Tailwind CSS, and other modern tools that prioritize performance and user experience.
-        On the backend, I specialize in Node.js, Express.js, and MongoDB, creating secure, scalable APIs and efficient server-side architectures. I'm a fast learner and detail-oriented problem solver who collaborates closely with clients to deliver clean, scalable, and impactful solutions.
-        <br /> Let’s work together to turn your ideas into powerful digital products!  </p>
+        I'm a Full-Stack Developer with 8+ years of experience, specializing in JavaScript and modern frameworks like React, Next.js, and Three.js. I craft dynamic, responsive user interfaces using TypeScript, Tailwind CSS, and other cutting-edge tools, always prioritizing performance and user experience.
+        <br />
+        On the backend, I work with Node.js, Express.js, and MongoDB to build secure, scalable APIs and efficient server-side architectures. With a strong problem-solving mindset and attention to detail, I collaborate closely with clients to deliver clean, scalable, and impactful solutions.
+        <br /><br />
+        Let’s work together to turn your ideas into powerful digital products! </p>
 
       <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-10">
         {services.map((service, index) => (

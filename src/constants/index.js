@@ -169,62 +169,142 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Upwork",
-    icon: arrow, 
-    iconBg: "#383E56",
-    date: "June 2022 - Jan 2025",
-    points: [
-      "Developing and maintaining web applications using MERN stack technologies independently.",
-      "Collaborating with designers, product managers, and other stakeholders to create high-quality products from start to finish.",
-      "Implementing responsive design and ensuring cross-browser compatibility for seamless user experiences.",
-      "Managing the entire development cycle, including code reviews, testing, and deployment, to ensure product quality.",
-    ],
-  },
-  
-  {
-    title: "CEO @ Zolixi",
-    company_name: "Zolixi",
+    title: "Senior Full-Stack Web Developer",
+    company_name: "IIH Global",
     icon: arrow,
     iconBg: "#383E56",
-    date: "Feb 2025 - present",
-    points: ["Leading Zolixi as co Founder & CEO while actively developing and maintaining web applications using MERN stack technologies.",
+    date: "June 2021 - May 2025",
+    points: [
+      "Built and led development of scalable web apps using React.js, Next.js, Node.js, and TypeScript.",
+      "Designed microservices, REST/GraphQL APIs, and optimized databases (PostgreSQL, MongoDB) for high performance.",
+      "Managed CI/CD pipelines, Docker/Kubernetes, AWS/Azure deployments, and implemented caching with Redis.",
+      "Mentored junior developers, conducted code reviews, and enforced clean coding practices.",
+      "Integrated payment gateways, messaging queues, and third-party APIs.",
+      "Collaborated with product teams to deliver robust, user-centric solutions while improving performance and reducing delivery timelines.",
+    ],
+  },
 
-"Overseeing project planning and collaborating with clients and team members to deliver high-quality, scalable digital solutions.",
+  {
+    title: "Full-Stack Developer",
+    company_name: "1654 Group",
+    icon: arrow,
+    iconBg: "#383E56",
+    date: "March 2018 - April 2021",
+    points: [
+      "Built and maintained end-to-end web applications using JavaScript (React.js, Node.js, Express) and MongoDB/MySQL.",
+      "Designed and developed RESTful APIs to support scalable client applications.",
+      "Worked on frontend architecture, implementing responsive UI with React, Redux, and TailwindCSS/Bootstrap.",
+      "Integrated third-party APIs (payment gateways, authentication, analytics) for extended functionality.",
+      "Implemented user authentication & authorization using JWT/OAuth for secure access control.",
+      "Optimized databases with indexes, queries, and normalization to improve performance.",
+      "Wrote unit and integration tests (Jest, Mocha) to ensure application reliability.",
+      "Deployed and managed applications on AWS/DigitalOcean, setting up CI/CD pipelines for automated releases.",
+      "Collaborated with cross-functional teams (UI/UX designers, QA engineers, and product managers) to deliver high-quality software on time.",
+    ],
+  },
 
-"Implementing responsive, pixel-perfect designs with a strong focus on performance and cross-browser compatibility.",
+  {
+    title: "Senior React Developer",
+    company_name: "LogicBench Software",
+    icon: arrow,
+    iconBg: "#383E56",
+    date: "February 2014 - October 2017",
+    points: [
+      "Led the development of scalable and high-performance web applications using React.js, Redux, and Next.js.",
+      "Designed and implemented reusable components to maintain consistency and improve development speed.",
+      "Optimized application performance through code-splitting, lazy loading, and advanced state management.",
+      "Collaborated with backend teams to integrate RESTful APIs and GraphQL.",
+      "Mentored junior developers, conducted code reviews, and enforced best practices for clean, maintainable code.",
+      "Implemented unit testing and E2E testing (Jest, Cypress) to ensure application reliability.",
+      "Worked with CI/CD pipelines (GitHub Actions, Jenkins) for smooth deployments.",
+      "Stayed updated with modern frontend trends (React 18 features, Server Components, Tailwind, TypeScript).",
+    ],
+  },
 
-"Managing the full development cycle — from backend integration to testing and deployment — ensuring seamless and timely project delivery."
+  {
+    title: "Dot Net Developer",
+    company_name: "SoftSolution",
+    icon: arrow,
+    iconBg: "#383E56",
+    date: "August 2011 - December 2013",
+    points: [
+      "Developed and maintained desktop applications using C# and .NET Framework.",
+      "Implemented web scraping tools to automate data extraction from various online sources.",
+      "Worked on database integration (SQL Server) to store, manage, and query scraped data.",
+      "Optimized scraping scripts for speed and reliability, ensuring accurate data collection.",
+      "Collaborated with team members to design and test application features before deployment.",
+      "Gained practical experience in OOP principles, debugging, and error handling.",
+    ],
+  },
+
+  {
+    title: "Junior Frontend Developer",
+    company_name: "Ovex Technologies",
+    icon: arrow,
+    iconBg: "#383E56",
+    date: "October 2008 - June 2010",
+    points: [
+      "Assisted in developing and maintaining responsive websites using HTML, CSS, and JavaScript.",
+      "Worked closely with senior developers to convert design mockups into functional web pages.",
+      "Improved website usability by implementing cross-browser compatibility and optimizing front-end performance.",
+      "Collaborated with the design and backend teams to ensure seamless user experience.",
+      "Gained hands-on experience with version control systems and debugging tools.",
     ],
   },
 ];
 
+
 const testimonials = [
   {
     testimonial:
-      "I didn’t believe it was possible to create a website that truly reflects the beauty of our product, but Ayesha made it happen.",
-name: "John Anderson",
+      "I didn’t believe it was possible to create a website that truly reflects the beauty of our product, but Asim made it happen.",
+    name: "John Anderson",
     designation: "Ecommerce",
     company: "QuickMart",
     image: firstTestimonial,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like she does.",
+      "I've never met a web developer who truly cares about their clients' success like he does.",
     name: "Abdul Raheman",
     designation: "Ecommerce Business",
-    company: "justbuyz",
+    company: "Justbuyz",
     image: secondTestimonial,
   },
   {
     testimonial:
-      "After Ayesha optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Asim optimized our website, our traffic increased by 50%. We can't thank him enough!",
     name: "James Wang",
     designation: "CTO",
     company: "456 Enterprises",
     image: thirdTestimonial,
   },
+  {
+    testimonial:
+      "Asim transformed our outdated system into a modern, scalable web platform. His attention to detail and problem-solving skills are unmatched.",
+    name: "Sophia Martinez",
+    designation: "Product Manager",
+    company: "Innovatech",
+    image: firstTestimonial,
+  },
+  {
+    testimonial:
+      "Working with Asim was an absolute pleasure. He delivered our project on time and exceeded expectations with pixel-perfect design.",
+    name: "David Lee",
+    designation: "Founder",
+    company: "BrightApps",
+    image: secondTestimonial,
+  },
+  {
+    testimonial:
+      "His ability to handle complex full-stack challenges while keeping communication clear and professional makes him stand out from other developers.",
+    name: "Amelia Johnson",
+    designation: "CEO",
+    company: "NextWave Digital",
+    image: thirdTestimonial,
+  },
 ];
+
 
 const projects = [
   {
