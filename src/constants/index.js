@@ -8,6 +8,9 @@ import {
   github,
   menu,
   close,
+  luxe,
+  rigflow,
+  hyer,
   css,
   globaljet,
   project2,
@@ -333,6 +336,8 @@ const projects = [
     image: project2,
     source_code_link: "https://behappygoleafy.com/",
   },
+
+
    {
   name: "Oura Ring",
   description:
@@ -380,14 +385,45 @@ const projects = [
     image: globaljet,
     source_code_link: "https://globaljet.aero/en",
   },
-  {
-  name: "Deliveroo",
+
+{
+  name: "FlyHyer / Hyer Aviation",
   description:
-    "Deliveroo is a leading online food delivery platform connecting users with local restaurants and grocery stores. It offers a fast, user-friendly experience for browsing menus, placing orders, and tracking deliveries in real-time. The platform emphasizes convenience, scalability, and seamless integration of secure payment systems and live order updates.",
+    "Hyer is a personalised aviation platform offering private charter & fractional aircraft ownership with flexible booking, customizable add-ons, and a tailored Flight Manager service. The site enables transparent quotes, digital booking, CO₂-neutral options, and membership benefits providing users full control over their private flight experience.",  
   tags: [
     {
-      name: "nextjs",
+      name: "react",
       color: "blue-text-gradient",
+    },
+    {
+      name: "tailwind",
+      color: "white-text-gradient",
+    },
+    {
+      name: "node",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "graphql",
+      color: "green-text-gradient",
+    },
+  ],
+  image: hyer,
+  source_code_link: "https://www.flyhyer.com/",
+}
+,
+{
+  name: "Luxe Cosmetics UK",
+  description:
+    "Luxe Cosmetics UK is an e-commerce beauty brand offering premium eyelash, eyebrow, and nail products with salon-quality results at home. The site features bestsellers, seasonal promotions (e.g., sales), tutorials, user reviews, and secure payment & shipping options to build trust and drive conversions among beauty enthusiasts.",
+  tags: [
+    {
+      name: "ecommerce",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "shopify",  // or whatever platform they use
+      color: "pink-text-gradient",
     },
     {
       name: "react",
@@ -397,13 +433,35 @@ const projects = [
       name: "tailwind",
       color: "green-text-gradient",
     },
+  ],
+  image: luxe,  
+  source_code_link: "https://luxe-cosmetics.uk/",
+}
+,
+  {
+  name: "RigFlow",
+  description:
+    "RigFlow is a professional truck dispatching platform designed to streamline logistics and optimize load management for carriers and owner-operators. It provides efficient dispatching services, client management, and seamless communication tools, ensuring smooth operations and maximizing profitability in the trucking business.",
+  tags: [
+    {
+      name: "nextjs",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "tailwind",
+      color: "white-text-gradient",
+    },
     {
       name: "node",
       color: "pink-text-gradient",
     },
+    {
+      name: "mongodb",
+      color: "green-text-gradient",
+    },
   ],
-  image: project4,
-  source_code_link: "https://deliveroo.co.uk/",
+  image: rigflow, 
+  source_code_link: "https://rigflow.com/",
 },
   {
     name: " Greenlight",
@@ -430,6 +488,31 @@ const projects = [
     image: project3,
     source_code_link: "https://greenlight.com/",
   },
+    {
+  name: "Deliveroo",
+  description:
+    "Deliveroo is a leading online food delivery platform connecting users with local restaurants and grocery stores. It offers a fast, user-friendly experience for browsing menus, placing orders, and tracking deliveries in real-time. The platform emphasizes convenience, scalability, and seamless integration of secure payment systems and live order updates.",
+  tags: [
+    {
+      name: "nextjs",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "react",
+      color: "white-text-gradient",
+    },
+    {
+      name: "tailwind",
+      color: "green-text-gradient",
+    },
+    {
+      name: "node",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: project4,
+  source_code_link: "https://deliveroo.co.uk/",
+},
 ];
 
 export { services, technologies, experiences, testimonials, projects };

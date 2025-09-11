@@ -1,4 +1,7 @@
 import logo from "./logo.png";
+import hyer from "./hyer.png";
+import luxe from "./luxe.png";
+import rigflow from "./rigflow.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -47,6 +50,9 @@ export {
   close,
   css,
   globaljet,
+  rigflow,
+  luxe,
+  hyer,
   project2,
   proj2,
   project4,
